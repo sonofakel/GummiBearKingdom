@@ -9,7 +9,7 @@
 
 <h1 class="f1 f-headline-l fw1 i black-70 athelas">Create a product</h1>
 
-<p>
+<div class="label-form-div">
 
 	@using (Html.BeginForm())
 
@@ -22,9 +22,11 @@
 @Html.LabelFor(model => model.CountryOfOrigin)
 @Html.EditorFor(model => model.CountryOfOrigin)
 
-<input type="submit" name="Add new product" class="btn btn-info" />
+<input type="submit" name="Add new product" class="btn btn-default grow ma3" />
     }
-</p>
+</div>
+
+		<br>
 
 <h4>@Html.ActionLink("Back to product list", "Index")
 

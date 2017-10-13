@@ -9,7 +9,7 @@
 
 <h1 class="f1 f-headline-l fw1 i black-70 athelas">Edit @Html.DisplayFor(model => model.Name)</h1>
 
-
+<div class="label-form-div">
 
 @using (Html.BeginForm())
 {
@@ -21,10 +21,10 @@
     @Html.LabelFor(model => model.CountryOfOrigin)
     @Html.EditorFor(model => model.CountryOfOrigin)
 
-    <input type="submit" value="Save" class="btn btn-default" />
+    <input type="submit" value="Save" class="btn btn-default ma2 grow" />
 
 }
-
+</div>
 		<br>
 
 		<h5>@Html.ActionLink("Go back to product list", "Index")</h5>

@@ -12,8 +12,13 @@
     display: table-cell;
 }
 
-.athelas {
-    font-family: athelas, georgia, serif;
+.label-form-div label {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.athelas; {
+font-family: athelas, georgia, serif;
 }
 
 .i {
