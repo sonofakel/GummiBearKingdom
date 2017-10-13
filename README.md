@@ -43,4 +43,4 @@ Site style based on [http://tachyons.io/components/articles/feature/index.html](
 
 MIT
 
-Copyright (c) 2017 **_Charlie Kelson}_**
+Copyright (c) 2017 **_Charlie Kelson_**
