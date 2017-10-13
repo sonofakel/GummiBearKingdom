@@ -1,0 +1,26 @@
+﻿@model GummiBearKingdom.Models.Product
+
+@{
+
+    ViewData["Title"] = "Create new product";
+}
+
+
+<p>
+
+	@using (Html.BeginForm())
+
+	{
+@Html.LabelFor(model => model.Name)
+@Html.EditorFor(model => model.Name)
+@Html.LabelFor(model => model.Cost)
+@Html.EditorFor(model => model.Cost)
+@Html.LabelFor(model => model.CountryOfOrigin)
+@Html.EditorFor(model => model.CountryOfOrigin)
+
+<input type="submit" name="Add new product" class="btn btn-info" />
+    }
+</p>
+
+<h4>@Html.ActionLink("Back to product list", "Index")
+

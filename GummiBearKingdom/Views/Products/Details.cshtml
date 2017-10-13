@@ -1,0 +1,25 @@
+﻿@model GummiBearKingdom.Models.Product
+
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>@Html.DisplayFor(model => model.Name) Details</h1>
+
+<h3>Country of Origin: @Html.DisplayFor(model => model.CountryOfOrigin)</h3>
+<h3>Cost: @Html.DisplayFor(model => model.Cost)</h3>
+
+
+<h5>Admin Section</h5>
+
+<p>
+	@Html.ActionLink("Create new product", "Create") 
+    @Html.ActionLink("Edit this product", "Edit", new { id = Model.ProductId }) 
+	@Html.ActionLink("Delete this product", "Delete", new {id = Model.ProductId })
+</p>
+
+
+
+
+

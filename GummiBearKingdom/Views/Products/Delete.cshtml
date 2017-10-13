@@ -1,0 +1,16 @@
+﻿@model GummiBearKingdom.Models.Product
+
+@{
+    ViewData["Title"] = "Delete product";
+}
+
+<h1>Delete @Html.DisplayFor(model => model.Name)</h1>
+
+<h4>Are you sure you want to delete this?</h4>
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="Delete" />
+}
+
+<h5>@Html.ActionLink("Go back to product list", "Index")</h5>

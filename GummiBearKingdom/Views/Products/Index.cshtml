@@ -1,0 +1,23 @@
+﻿@model IEnumerable<GummiBearKingdom.Models.Product>
+
+
+@{
+
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+
+<ul>
+    @foreach(var product in Model)
+	{
+        <li>
+        @Html.DisplayFor(modelProduct => product.Name)
+		@Html.ActionLink("details", "Details", new { id = product.ProductId})
+	    </li>
+	}
+
+</ul>
+
+
+<h5>@Html.ActionLink("Back to welcome page", "Index", "Home")</h5>
