@@ -1,8 +1,8 @@
 ﻿
 
-http://tachyons.io/components/articles/feature/index.html
 
-# _{Gummi Bear Kingdom}_
+
+# _Gummi Bear Kingdom_
 
 #### _A site for a Gummi Bear Company, Oct 13_
 
@@ -24,6 +24,9 @@ This is the main page, which includes some information about Gummi Bear Kingdom,
 
 The Products section should contain a list of products offered by Gummi Bear Kingdom. You should add a few "dummy" products, but don't need to add too many. The Products listed should each link to a Details page when clicked on. Products must have a name, cost and country of origin Within the details page, the admins want their product managers to be able to view, add, edit and remove products. You have some freedom to decide how that will work.
 
+#### Style
+
+Site style based on [http://tachyons.io/components/articles/feature/index.html](http://tachyons.io/components/articles/feature/index.html)
 
 ## Setup/Installation Requirements
 
